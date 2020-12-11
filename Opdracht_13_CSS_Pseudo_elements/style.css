@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:700");
+
+body     {
+  background:#231F20;
+  text-align:center;
+}
+
+h1         {
+  color:#FFF;
+  font-family:'Oswald';
+  font-weight:700;
+  position:relative;  
+  margin:30px auto;
+  text-transform:uppercase;
+  width:550px;
+}
+
+h1::before {
+
+content: '';
+display: inline-block;
+background-color: #4A90E2;
+width: 25px;
+height: 25px;
+position: top;
+margin-right: 10px;
+border-radius: 10px 0 0 10px;
+
+}
+
+h1::after {
+
+  content: '';
+  display: inline-block;
+  background-color: #4A90E2;
+  width: 25px;
+  height: 25px;
+  position: top;
+  margin-left: 10px;
+  border-radius: 0 10px 10px 0;
+  
+  }
+
+/* selector voor het linker halve cirkeltje, selector voor het rechter halve cirkeltje {
+// gezamelijke eigenschappen van de halve cirkels: 
+// - het is Winc blauw ... background:#4A90E2;
+// - content is empty string 
+// - display... block? Inline-block?
+// - aanta px hoog 
+// - aantal px breed 
+// - absolute positie 
+}
+
+selector voor het linker halve cirkeltje {  
+// border radius, generator: <https://www.cssmatic.com/border-radius> 
+// Positioneer je halve rondje met left en top
+}
+
+selector voor het rechter halve cirkeltje {  
+// border radius, generator: <https://www.cssmatic.com/border-radius> 
+// Positioneer je halve rondje met left en top 
+}
+*/
